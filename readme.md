@@ -37,30 +37,29 @@ Download model from <a href="#"> here </a> (Used ResNet101 as backbone for the t
    1. python visualize_single_image --image_dir \<path to directory with test imaages> --model_path \<path to trained model> --class_list \<path to csv with class mapping>
 
 ## API Usage
-1. To install dependencies install flask_requirements.txt along with requirements.txt
-2. To run flask app navigate to "flask_api_inf" and run - 
+1. To run flask app navigate to "flask_api_inf" and run - 
    1. flask app.py
-3. The flask app will run on "http://127.0.0.1:5000"
-4. Use postman to send a POST request to http://127.0.0.1:5000/detect_dent with following arguments.
-   1. Body - 
-      1. image (type-file) - select the image file.
-5. The api will return a Json
-   1. example json
-      1. {
-    "imageName": "temp_image_store/temp_image.jpg",
-    "predictions": [
-        {
-            "bbox": [
-                12,
-                25,
-                389,
-                569
-            ],
-            "label": "fender-dent",
-            "score": 0.2705020308494568
-        }
-    ]
-}
+2. The flask app will run on "http://127.0.0.1:5000"
+3. Use postman to send a POST request to http://127.0.0.1:5000/detect_dent with following arguments.
+      1. Body - 
+         1. image (type-file) - select the image file.
+4. The api will return a Json 
+   1. example json - 
+      _{
+             "imageName": "temp_image_store/temp_image.jpg",
+             "predictions": [
+                 {
+                     "bbox": [
+                         12,
+                         25,
+                         389,
+                         569
+                     ],
+                     "label": "fender-dent",
+                     "score": 0.2705020308494568
+                 }
+             ]
+}_
 
 ### References
 1. <a href="https://arxiv.org/abs/1708.02002">
