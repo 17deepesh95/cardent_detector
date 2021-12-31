@@ -8,9 +8,9 @@
 * _Added Flask app for api calls for image inference._
 
 ## System Information
-1. ####Python-3.7
-2. ####Pytorch-1.10.1
-3. ####Training GPU - NVIDIA RTX 2060
+1. #### Python-3.7
+2. #### Pytorch-1.10.1
+3. #### Training GPU - NVIDIA RTX 2060
 
 ## Usage
 Download model from <a href="#"> here </a> (Used ResNet101 [2] as backbone for the training.
