@@ -32,7 +32,7 @@ for file in files:
         y_max = bbox.find('ymax').text
 
         dictionary = {
-            'file_name': file_name,
+            'file_name': f'E:/projects/cardent_detector/dataset/car_dent_voc/valid/{file_name}',
             'x1': x_min,
             'y1': y_min,
             'x2': x_max,

@@ -12,7 +12,7 @@ BASE_DIR = 'E:/projects/cardent_detector'
 FLASK_DIR = os.path.join(BASE_DIR, 'flask_api_inf')
 MODEL_DIR = os.path.join(BASE_DIR, 'models_output')
 
-MODEL_FILE = os.path.join(MODEL_DIR, 'csv_retinanet_25.pt')
+MODEL_FILE = os.path.join(MODEL_DIR, 'csv_retinanet_56.pt')
 CLASSESS_FILE = os.path.join(BASE_DIR, 'input_csv', 'classes.csv')
 
 app = Flask(__name__)
