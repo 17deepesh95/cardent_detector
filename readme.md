@@ -9,7 +9,7 @@
 
 ## System Information
 1. #### Python-3.7
-2. #### Pytorch-1.10.1
+2. #### Pytorch-1.10.1 (install pytorch from https://pytorch.org/get-started/locally/)
 3. #### Training GPU - NVIDIA RTX 2060
 
 ## Usage
